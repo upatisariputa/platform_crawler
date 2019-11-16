@@ -1,2 +1,3 @@
 .env
 .vscode
+twitch/clientID.py
