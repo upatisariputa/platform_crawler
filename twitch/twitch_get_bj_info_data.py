@@ -1,5 +1,5 @@
 import requests
-from clientID import client_id
+from twitch_client_id import client_id
 from http_data import url, headers
 from twitch_bj_id_data import bj_ids_datas
 
@@ -26,8 +26,6 @@ def get_bj_info(ids = bj_ids_datas):
         else:
             bj_name = bj_info['data'][0]['display_name']
             bj_image = bj_info['data'][0]['offline_image_url']
-            bj_platform = ''
+            bj_platform = 'twitch'
             bj_ids_datas = {'bj_name' : bj_name, 'bj_image': bj_image, 'bj_platform' : bj_platform}
             print(bj_ids_datas)
-
-get_bj_info()

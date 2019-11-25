@@ -1,7 +1,6 @@
 import requests
-from clientID import client_id
+from twitch_client_id import client_id
 from http_data import url, headers
-from twitch_bj_id_data import bj_ids_datas
 
 def get_bj_video(id):
     bj_video_datas = {}
@@ -20,4 +19,3 @@ def get_bj_video(id):
         print(all_video_view_cnt)
     # print(res)
 
-get_bj_video('275644615')

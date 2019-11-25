@@ -1,5 +1,5 @@
 import requests
-from clientID import client_id
+from twitch_client_id import client_id
 from http_data import url, headers
 from twitch_bj_id_data import bj_ids_datas
 
@@ -20,6 +20,4 @@ def get_bj_fw_data(ids = bj_ids_datas):
         else:
             fw_cnt = res['total']
             print(fw_cnt)
-
-get_bj_fw_data()
                 
