@@ -1,2 +1,5 @@
 .env
 .vscode
+twitch/clientID.py
+twitch/twitch_bj_id_data.py
+twitch/twitch_bj_name_data.py
