@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'NAME' : 'crawler',
         'USER' : 'sariputa',
         'PASSWORD' : '1q2w3e4r5t',
-        'HOST' : 'platform-crawler.cqi4ncqsps58.ap-northeast-2.rds.amazonaws.com',
+        'HOST' : 'platform-crawler01.cqi4ncqsps58.ap-northeast-2.rds.amazonaws.com',
         'PORT' : '7887',
         'OPTIONS': {
             'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"'
