@@ -1,7 +1,7 @@
 import pymysql
 from db_config import host_name, username, password, database_name
 
-db = pymysql.connect(
+conn = pymysql.connect(
     host = host_name,
     port = 7887,
     user = username,
@@ -10,7 +10,7 @@ db = pymysql.connect(
     charset = 'utf8'
 )
 
-cursor = db.cursor()
-cursor.execute('set names utf8')
-db.commit()
+# cursor = conn.cursor()
+# cursor.execute('set names utf8')
+# conn.commit()
 
