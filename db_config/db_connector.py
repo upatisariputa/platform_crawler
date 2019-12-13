@@ -10,7 +10,7 @@ db = pymysql.connect(
     charset = 'utf8'
 )
 
-cursor = db.cursor()
-cursor.execute('set names utf8')
-db.commit()
+# cursor = db.cursor()
+# cursor.execute('set names utf8')
+# db.commit()
 
