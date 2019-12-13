@@ -3,7 +3,7 @@
 twitch/clientID.py
 twitch/twitch_bj_id_data.py
 twitch/twitch_bj_name_data.py
-db_config
+db_config.py
 .DS_Store
 __pychache__
 afreeca/__pycache__/db_config.cpython-37.pyc
