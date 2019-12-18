@@ -1,8 +1,6 @@
 from http_data import url, headers
 import requests
 
-# fan_cnt = ''
-
 def get_bj_fan_cnt(bj_id):
     fan_cnt = ''
     try:
