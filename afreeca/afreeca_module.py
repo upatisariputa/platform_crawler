@@ -4,6 +4,7 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from afreeca_get_bj_info_data import bj_info_data
 from afreeca_id_datas import id_datas
 from afreeca_get_bj_fan_cnt import get_bj_fan_cnt
+from afreeca_get_bj_videos import bj_videos_data
 from db_config.db_call_procedure import call_procedure
 from time import localtime, strftime
 
@@ -37,6 +38,9 @@ for key, id in id_datas.items():
         call_procedure('info_saver', bj_info_data_list)
         call_procedure('total_saver', bj_total_list)
         call_procedure('sub_saver', bj_sub_list)
+        
+        # info가 저장된 다음 video가 저장
+        bj_video_data_list = bj_videos_data(id, key)
 
 
     except Exception as e:
