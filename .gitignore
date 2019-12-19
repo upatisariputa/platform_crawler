@@ -4,6 +4,8 @@ twitch/clientID.py
 twitch/twitch_bj_id_data.py
 twitch/twitch_bj_name_data.py
 db_config.py
+twitch.xlsx
+config
 .DS_Store
 __pychache__
 db_config/__pycache__/
@@ -27,3 +29,7 @@ afreeca/__pycache__/afreeca_get_bj_videos.cpython-37.pyc
 db_config/__pycache__/db_call_procedure.cpython-37.pyc
 db_config/__pycache__/db_config.cpython-37.pyc
 db_config/__pycache__/db_connector.cpython-37.pyc
+twitch/__pycache__/twitch_bj_video.cpython-37.pyc
+twitch/__pycache__/twitch_client_id.cpython-37.pyc
+twitch/__pycache__/twitch_client_id.cpython-37.pyc
+twitch/__pycache__/twitch_client_id.cpython-37.pyc
